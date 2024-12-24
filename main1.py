@@ -106,7 +106,7 @@ if __name__ == "__main__":
                               ignore_patterns=[],
                               ignore_directories=True)
     observer = Observer()
-    observer.schedule(event_handler,path=r"C:\Users\sastr\Akshara_Automate",recursive=True)
+    observer.schedule(event_handler,path=r"your path",recursive=True)
     observer.start()
 
     try:
